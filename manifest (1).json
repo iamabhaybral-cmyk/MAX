@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "SYSTEM",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "MAXx",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "description": "Well  my build",
+  "id": "com.max.system"
+}
