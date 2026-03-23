@@ -2004,6 +2004,10 @@ function pomoInit(){
   setInterval(()=>{if(!pRunning)pShowQuote(PQUOTES_FOCUS,'[ SYSTEM MOTIVATION ]');},10*60*1000);
   setInterval(()=>{if(pRunning){pUpdateStats();pUpdatePomoRank();pRenderGraph();pRenderHeatmap();}},60*1000);
 }
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/MAX/sw.js');
+}
 </script>
 </body>
 </html>
